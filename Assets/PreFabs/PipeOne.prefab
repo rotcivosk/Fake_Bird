@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3826091746134040585}
   - component: {fileID: 7425060832025262510}
   - component: {fileID: 6162924277668254876}
+  - component: {fileID: 4528335046386709906}
   m_Layer: 0
   m_Name: PipeOneUp
   m_TagString: Pipe
@@ -130,6 +131,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.6340487, y: 5.3237753}
   m_EdgeRadius: 0
+--- !u!95 &4528335046386709906
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365547001952207951}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8f64a72916d87854d92c48e3c2b13dd1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5397545490822331433
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,6 +264,7 @@ GameObject:
   - component: {fileID: 7056812719233226013}
   - component: {fileID: 3922452575694270811}
   - component: {fileID: 5769626678529762699}
+  - component: {fileID: 8031237103536001148}
   m_Layer: 0
   m_Name: PipeOneDown
   m_TagString: Pipe
@@ -361,3 +384,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.4911518, y: 5.280685}
   m_EdgeRadius: 0
+--- !u!95 &8031237103536001148
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5583757438306337664}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d4226ed64dafb124480d4b9183e02dad, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
